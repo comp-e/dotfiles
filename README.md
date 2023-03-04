@@ -3,6 +3,8 @@ Running Artix Linux 6.1.12
 
 ## Installation
 
+**WARNING: Please make sure to read through the contents of dependencies.sh and install.sh scripts before continuing with the installation process.
+
 Cloning the repo
 ```bash
 sudo pacman -Syu
@@ -21,7 +23,7 @@ chmod +x install.sh
 doas ./install.sh
 ```
 
-## Directory tree
+## Layout
 ```bash
 .
 ├── .bashrc
@@ -45,5 +47,3 @@ doas ./install.sh
 
 ## Specifications
 Included configurations for: dwm, st, dmenu, neovim, picom
-
--- END --
