@@ -1,0 +1,2 @@
+super + ctrl + {1,2}
+    mss -m {1,2} -o /home/arch/Pictures/Screenshots/$(date +"%y-%m-%d-%H:%M:%S").png
