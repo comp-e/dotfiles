@@ -35,15 +35,19 @@ doas ./install.sh
 │   ├── picom
 │   ├── pycodestyle
 │   ├── sxhkd
+│   ├── zsh
 ├── .repos
 │   ├── dmenu
 │   ├── dwm
 │   │   ├── dwmblocks
 │   ├── st
 ├── .xinitrc
+├── .xprofile
 ├── dependencies.sh
 ├── install.sh
 ```
 
 ## Specifications
-Included configurations for: dwm, st, dmenu, neovim, picom
+To change your default shell to zsh, refer to [Command-line shell#Changing your default shell.](https://wiki.archlinux.org/title/Command-line_shell#Changing_your_default_shell)
+
+Included configurations for: dwm, st, dmenu, zsh, neovim, picom
