@@ -48,6 +48,6 @@ doas ./install.sh
 ```
 
 ## Specifications
-To change your default shell to zsh, refer to [Command-line shell#Changing your default shell.](https://wiki.archlinux.org/title/Command-line_shell#Changing_your_default_shell)
+To make zsh your default shell, refer to [Command-line shell#Changing your default shell.](https://wiki.archlinux.org/title/Command-line_shell#Changing_your_default_shell)
 
 Included configurations for: dwm, st, dmenu, zsh, neovim, picom
