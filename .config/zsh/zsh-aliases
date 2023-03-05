@@ -1,0 +1,4 @@
+alias ls='ls -hal --color=auto'
+alias poweroff='sudo poweroff'
+alias reboot='sudo reboot'
+alias vim='nvim'

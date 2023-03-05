@@ -1,8 +1,3 @@
-sudo pacman -S doas
-sudo echo "permit persist :wheel as root" >> /etc/doas.conf
-doas pacman -S --needed git base-devel
-git clone https://github.com/comp-e/dotfiles.git
-cd dotfiles/
 cp -r .config ~
 cp -r .repos ~
 cp .xinitrc .bashrc ~

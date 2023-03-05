@@ -1,0 +1,27 @@
+# ~/.xprofile
+
+# XDG paths
+export XDG_CONFIG_HOME=$HOME/.config
+export XDG_CACHE_HOME=$HOME/.cache
+export XDG_DATA_HOME=$HOME/.local/share
+
+# zsh config dir
+export ZDOTDIR=$HOME/.config/zsh
+
+# Composite Manager
+picom &
+
+# Wallpaper
+nitrogen --set-scaled ~/.repos/dwm/wallpapers/0001.jpg &
+
+# Status bar
+dwmblocks &
+
+# PulseAudio
+pulseaudio --daemon &
+
+# sxhkd
+sxhkd &
+
+# Keyboard layout
+setxkbmap us,gr -option grp:alt_shift_toggle,grp_led:scroll &
