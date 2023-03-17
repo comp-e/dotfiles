@@ -34,6 +34,7 @@ doas ./install.sh
 │   ├── nvim
 │   ├── picom
 │   ├── pycodestyle
+│   ├── redshift 
 │   ├── sxhkd
 │   ├── zsh
 ├── .repos
